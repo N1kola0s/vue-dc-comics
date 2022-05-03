@@ -169,11 +169,18 @@ footer {
          padding: 10px 0;
      }
 
-     .footer_logo{
-        position: absolute;
-        z-index: 0;
-        margin: -3rem 0;
+     .container{
+         position:relative;
+
+         .footer_logo{
+            position: absolute;
+            z-index: 0;
+            margin: -3rem 0;
+            right:0;
+        }
      }
+
+     
   }
 
   .footer_bottom{
