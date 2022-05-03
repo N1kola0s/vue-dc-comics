@@ -50,7 +50,7 @@ export default {
 header{
 
   nav{
-    height: 93px;
+    height: 90px;
 
     ul{
         

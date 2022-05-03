@@ -177,7 +177,7 @@ footer {
   }
 
   .footer_bottom{
-    height: 87px;
+    height: 90px;
     position: relative;
     z-index:1;
     background-color: #303030;

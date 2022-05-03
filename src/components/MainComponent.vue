@@ -114,17 +114,20 @@
 <style lang="scss" scoped>
 
     main{
+        height: calc(100vh - 180px);
+
         .content_top{
             
             background-color: black;
             padding:2.5rem 0;
+            height: calc(100% - 125px);
 
             .text{
                 padding:0 2.5rem;
                 font-size: 1.5rem;
             }
             
-    
+
         }
 
         .content_bottom{
@@ -133,6 +136,7 @@
             padding:2.5rem 0;
             color:white;
             background-color: #0282F9 ;
+            height: 125px;
 
              .action_image{
                 height: 48px;
