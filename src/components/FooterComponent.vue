@@ -93,12 +93,31 @@
                         </button>
                     </div>
                     <div class="col-6">
-                        <div class="d-flex justify-content-end align-items-center">
-                            <h3 class="text-uppercase">
+                        <div class=" contacts d-flex justify-content-end align-items-center">
+                            <h3 class="text-uppercase px-4 my-0">
                                 follow us
-
                             </h3>
-                            <div class="links">
+                            <div class="social_media d-flex d-flex align-items-center">
+                                <div class="channel facebook">
+                                    <img src="../assets/img/footer-facebook.png" alt="facebook">
+
+                                </div>
+                                <div class="channel twitter">
+                                    <img src="../assets/img/footer-twitter.png" alt="twitter">
+
+                                </div>
+                                <div class="channel youtube">
+                                    <img src="../assets/img/footer-youtube.png" alt="youtube">
+
+                                </div>
+                                <div class="channel pinterest">
+                                    <img src="../assets/img/footer-pinterest.png" alt="pinterest">
+
+                                </div>
+                                <div class="channel periscope">
+                                    <img src="../assets/img/footer-periscope.png" alt="periscope">
+
+                                </div>
 
                             </div>
 
@@ -134,15 +153,15 @@
 
 footer {
 
+    h3{
+        font-size: 20px;
+    }
+
   .footer_top{
     /* height: 298px; */
     background-image: url('../assets/img/footer-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
-    h3{
-        font-size: 20px;
-    }
 
      ul{
          list-style: none;
@@ -163,6 +182,11 @@ footer {
     z-index:1;
     background-color: #303030;
     color: #0282F9;
+
+    .channel{
+        padding:0 8px;
+        margin-left: 10px;
+    }
   }
 
 }
