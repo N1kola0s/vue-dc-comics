@@ -4,12 +4,25 @@
 
       <div class="container">
 
-        <nav>
-          <SiteLogo />
+        <nav class="d-flex justify-content-between align-items-center">
 
+            <SiteLogo />
+            
+            <ul class="d-flex">
+                <li><a href="#">character</a></li>
+                <li><a href="#">comics</a></li>
+                <li><a href="#">movies</a></li>
+                <li><a href="#">tv</a></li>
+                <li><a href="#">games</a></li>
+                <li><a href="#">collectibes</a></li>
+                <li><a href="#">videos</a></li>
+                <li><a href="#">fans</a></li>
+                <li><a href="#">news</a></li>
+                <li><a href="#">shop</a></li>
+            </ul>
+          
         </nav>
          
-
       </div>
 
     </header>
@@ -38,7 +51,26 @@ header{
 
   nav{
     height: 93px;
-    background-color:red;
+
+    ul{
+        
+        list-style: none;
+
+        a{
+        padding: 2.5rem 1rem;
+        text-decoration:none;
+        text-transform: uppercase;
+        color:black;
+        font-weight: 600;
+
+            &:hover {
+                border-bottom: 4px solid #0282F9;
+            }
+        
+        }
+    }
+
+    
   }
 
 }

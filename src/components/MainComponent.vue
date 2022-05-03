@@ -22,7 +22,6 @@
 
 
         }
-    
     }
 </script>
 
@@ -37,7 +36,6 @@
         .content_bottom{
             height: 223px;
             background-color:orangered;
-
         }
     }
 
