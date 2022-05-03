@@ -1,17 +1,24 @@
 <template>
     <footer id="site_footer">
 
-        <div class="container">
+        
 
-            <div class="footer_top">
+        <div class="footer_top">
 
-            </div>
-            
-            <div class="footer_bottom">
+            <div class="container">
 
             </div>
-            
+
         </div>
+        
+        <div class="footer_bottom">
+            <div class="container">
+
+            </div>
+
+        </div>
+            
+        
 
     </footer>
     <!-- /#site_footer -->
@@ -36,12 +43,12 @@ footer {
 
   .footer_top{
     height: 298px;
-    background-color: gray;
+    background-image: url('../assets/img/footer-bg.jpg');
   }
 
   .footer_bottom{
     height: 87px;
-    background-color: blue;
+    background-color: #303030;
   }
 
 }

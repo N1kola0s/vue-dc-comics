@@ -57,7 +57,7 @@ header{
         list-style: none;
 
         a{
-        padding: 2.5rem 1rem;
+        padding: 2.4rem 1rem;
         text-decoration:none;
         text-transform: uppercase;
         color:black;
