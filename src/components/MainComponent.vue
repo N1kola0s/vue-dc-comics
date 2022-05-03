@@ -115,8 +115,9 @@
 
     main{
         .content_top{
-            height: 102px;
+            
             background-color: black;
+            padding:2.5rem 0;
 
             .text{
                 padding:0 2.5rem;
@@ -127,7 +128,9 @@
         }
 
         .content_bottom{
-            height: 223px;
+            position:relative;
+            z-index:1;
+            padding:2.5rem 0;
             color:white;
             background-color: #0282F9 ;
 

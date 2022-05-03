@@ -3,20 +3,115 @@
 
         
 
-        <div class="footer_top">
+        <div class="footer_top h-100">
 
             <div class="container">
 
+                <div class="row">
+                    <div class="col-4">
+                        <div class="row my-5">
+                            <div class="col">
+                                <h3 class="text-uppercase text-white">
+                                    dc comics
+                                </h3>
+
+                                <ul>
+                                    <li>Characthers</li>
+                                    <li>Comics</li>
+                                    <li>Movies</li>
+                                    <li>TV</li>
+                                    <li>Games</li>
+                                    <li>Videos</li>
+                                    <li>News</li>
+                                </ul>
+
+                                <h3 class="text-uppercase text-white">shop</h3>
+
+                                <ul>
+                                    <li>Shop DC</li>
+                                    <li>Shop DC Collectibles</li>
+                                </ul>
+
+                            </div>
+                            <div class="col">
+                                <h3 class="text-uppercase text-white">
+                                    dc
+                                </h3>
+
+                                <ul>
+                                    <li>Terns Of Use</li>
+                                    <li>Privacy policy (New)</li>
+                                    <li>Ad Choices</li>
+                                    <li>Advertising</li>
+                                    <li>Jobs</li>
+                                    <li>Subscriptions</li>
+                                    <li>Talent Workshops</li>
+                                    <li>CPSC Certificates</li>
+                                    <li>Ratings</li>
+                                    <li>Shop Help</li>
+                                    <li>Contact Us</li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                 <h3 class="text-uppercase text-white">
+                                    sites
+                                </h3>
+                                <ul>
+                                    <li>DC</li>
+                                    <li>
+                                        MAD Magazine
+                                    </li>
+                                    <li>DC Kids</li>
+                                    <li>DC Universe</li>
+                                    <li>DC Power Visa</li>
+                                </ul>
+
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                    <div class="footer_logo col-8 d-flex justify-content-end">
+                        <img src="../assets/img/dc-logo-bg.png" alt="dc_bg_logo">
+                    </div>
+
+                </div>
+                <!-- /.row -->
+
             </div>
+            <!-- /.container -->
 
         </div>
+        <!-- /.footer_top -->
         
-        <div class="footer_bottom">
+        <div class="footer_bottom d-flex justify-content-center">
             <div class="container">
+                <div class="row align-items-center h-100">
+                    <div class="col-6">
+                        <button type="button" class="btn btn-outline-primary rounded-0 border-3 text-uppercase text-white">
+                            sign-up now!
+                        </button>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex justify-content-end align-items-center">
+                            <h3 class="text-uppercase">
+                                follow us
+
+                            </h3>
+                            <div class="links">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
 
             </div>
 
         </div>
+        <!-- /.footer_bottom -->
             
         
 
@@ -30,9 +125,7 @@
         name:'FooterComponent',
         component: {
 
-
-        }
-    
+        }    
     }
 
 </script>
@@ -42,13 +135,34 @@
 footer {
 
   .footer_top{
-    height: 298px;
+    /* height: 298px; */
     background-image: url('../assets/img/footer-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h3{
+        font-size: 20px;
+    }
+
+     ul{
+         list-style: none;
+         color:#959595;
+         padding: 10px 0;
+     }
+
+     .footer_logo{
+        position: absolute;
+        z-index: 0;
+        margin: -3rem 0;
+     }
   }
 
   .footer_bottom{
     height: 87px;
+    position: relative;
+    z-index:1;
     background-color: #303030;
+    color: #0282F9;
   }
 
 }
