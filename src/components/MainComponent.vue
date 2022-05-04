@@ -23,6 +23,14 @@
                 </div>
                 <!-- /.row -->
 
+                <div class="load_more text-center">
+                    <a href="#" class="btn btn-primary rounded-0 border-3 text-uppercase text-white px-5">
+                    load more
+                    </a>
+                </div>
+
+                
+
             </div>
             <!-- /.container -->
 
