@@ -18,6 +18,8 @@
 <style lang="scss" scoped>
     .logo{
         width: 70px;
+        height: 70px;
+        aspect-ratio: 1;
     }
 
 </style>

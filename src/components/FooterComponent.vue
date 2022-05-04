@@ -88,9 +88,9 @@
             <div class="container">
                 <div class="row align-items-center h-100">
                     <div class="col-6">
-                        <button type="button" class="btn btn-outline-primary rounded-0 border-3 text-uppercase text-white">
+                        <a href="#" class="btn btn-outline-primary rounded-0 border-3 text-uppercase text-white">
                             sign-up now!
-                        </button>
+                        </a>
                     </div>
                     <div class="col-6">
                         <div class=" contacts d-flex justify-content-end align-items-center">
