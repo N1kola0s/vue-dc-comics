@@ -1,12 +1,18 @@
 <template>
 <main id="site_main">
 
+        <div class="jumbotron">
+
+        </div>
+
       
         <div class="content_top text-white d-flex align-items-center">
 
+            
+
             <div class="container">
 
-                <div class="text"> -- Content goes here  -- </div>
+                <div class="text text-uppercase bg-primary">current series</div>
 
                 <div class="row">
 
@@ -209,16 +215,36 @@
 
     main{
 
+        .jumbotron{
+            
+                background-image: url('../assets/img/jumbotron.jpg');
+                height: 315px;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
         .content_top{
             
             background-color: black;
             padding:2.5rem 0;
             height: calc(100% - 125px);
 
-            .text{
-                padding:0 2.5rem;
-                font-size: 1.5rem;
+            .container{
+            
+                position:relative;
+
+                    .text{
+                    padding:0.5rem 1.5rem;
+                    font-size: 1.5rem; 
+                    width: fit-content;
+                    background-color:#0282F9;
+                    position:absolute;
+                    top:-70px;
+                    left: 0px;
+                }
             }
+
+           
         }
 
         .content_bottom{

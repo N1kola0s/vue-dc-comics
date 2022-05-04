@@ -47,28 +47,28 @@
 <style lang="scss" scoped>
 
     .card{
-                padding: 1rem 0rem;
-                color: #959595;
-                text-transform: uppercase;
-                background-color: black;
+        padding: 1rem 0rem;
+        color: #959595;
+        text-transform: uppercase;
+        background-color: black;
 
 
-                .card-img-top{
-                    object-position: top;
-                    aspect-ratio: 1/1;
-                    height: 200px;
-                    object-fit: cover;
+        .card-img-top{
+            object-position: top;
+            aspect-ratio: 1/1;
+            height: 200px;
+            object-fit: cover;
 
-                    
-                }
+            
+        }
 
-                .card-body{
-                    padding: 1rem 0rem;
-                }
+        .card-body{
+            padding: 1rem 0rem;
+        }
 
-                h6{
-                    font-size:14px;
-                }
-            }
+        h6{
+            font-size:14px;
+        }
+    }
 
 </style>
