@@ -12,6 +12,7 @@
 
                     <ul class="d-flex">
                         <li v-for="item in menu" :key="item.id"><a :href="item.href">{{item.text}}</a></li>
+                        
                         <!-- <li><a href="#">characters</a></li>
                         <li><a href="#">comics</a></li>
                         <li><a href="#">movies</a></li>
