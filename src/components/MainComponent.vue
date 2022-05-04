@@ -4,11 +4,10 @@
         <div class="jumbotron">
 
         </div>
+        <!-- /.jumbotron -->
 
       
         <div class="content_top text-white d-flex align-items-center">
-
-            
 
             <div class="container">
 
@@ -28,8 +27,7 @@
                     load more
                     </a>
                 </div>
-
-                
+                <!-- /.load_more -->
 
             </div>
             <!-- /.container -->
@@ -43,84 +41,28 @@
 
                  <div class="row align-items-center h-100">
 
-                    <div class="col">
+                    <div class="col" v-for="item in banner" :key="item.id">
 
                         <div class="actions d-flex aling-items-center">
 
                             <div class="action_image d-flex align-items-center">
-                                <img src="../assets/img/buy-comics-digital-comics.png" alt="">
+                                <img :src="item.src" :alt="item.text">
                             </div>
+                            <!-- /action_image -->
                             <div class="action_text d-flex align-items-center text-uppercase">
-                                digital comics
+                               {{item.text}}
                             </div>
+                            <!-- /.action_text -->
                         </div>
-                            
+                        <!-- /.actions -->      
                     </div>
-
-                    <div class="col">
-
-                        <div class="actions d-flex aling-items-center">
-
-                            <div class="action_image d-flex align-items-center">
-                                <img src="../assets/img/buy-comics-merchandise.png" alt="">
-                            </div>
-                            <div class="action_text d-flex align-items-center text-uppercase">
-                                dc merchandise
-                            </div>
-                        </div>
-                            
-                    </div>
-
-                    <div class="col">
-
-                        <div class="actions d-flex aling-items-center">
-
-                            <div class="action_image d-flex align-items-center">
-                                <img src="../assets/img/buy-comics-subscriptions.png" alt="">
-                            </div>
-                            <div class="action_text d-flex align-items-center text-uppercase">
-                                subscription
-                            </div>
-                        </div>
-                            
-                    </div>
-
-                    <div class="col">
-
-                        <div class="actions d-flex aling-items-center">
-
-                            <div class="action_image d-flex align-items-center">
-                                <img src="../assets/img/buy-comics-shop-locator.png" alt="">
-                            </div>
-                            <div class="action_text d-flex align-items-center text-uppercase">
-                                comic shop locator
-                            </div>
-                        </div>
-                            
-                    </div>
-
-                    <div class="col">
-
-                        <div class="actions d-flex aling-items-center">
-
-                            <div class="action_image d-flex align-items-center">
-                                <img src="../assets/img/buy-dc-power-visa.svg" alt="">
-                            </div>
-                            <div class="action_text d-flex align-items-center text-uppercase">
-                                dc power visa
-                            </div>
-                        </div>
-                            
-                    </div>
-                    
+                    <!-- /.col -->
                 </div>
-                
+                <!-- /.row -->
             </div>
-
+            <!--/.container  -->
         </div>
-           
-      
-      
+        <!-- /.content_bottom -->
     </main>
     <!-- /#site_main -->
     
@@ -129,6 +71,7 @@
 <script>
 
     import BookComponent from "@/components/BookComponent.vue";
+    /* importo il componente della card */
 
         export default {
             name:'MainComponent',
@@ -212,6 +155,34 @@
                             "price": "$16.99",
                             "series": "Catwoman",
                             "type": "graphic novel"
+                        }
+                    ],
+
+                    banner: [
+                        {
+                            id:1,
+                            src:require('@/assets/img/buy-comics-digital-comics.png'),
+                            text:'Digital Comics'
+                        },
+                        {
+                            id:2,
+                            src:require('@/assets/img/buy-comics-merchandise.png'),
+                            text:'dc merchandise'
+                        },
+                        {
+                            id:3,
+                            src:require('@/assets/img/buy-comics-subscriptions.png'),
+                            text:'subscription'
+                        },
+                        {
+                            id:4,
+                            src:require('@/assets/img/buy-comics-shop-locator.png'),
+                            text:'comic shop locator'
+                        },
+                        {
+                            id:5,
+                            src:require('@/assets/img/buy-dc-power-visa.svg'),
+                            text:'dc power visa'
                         }
                     ]
                 }
