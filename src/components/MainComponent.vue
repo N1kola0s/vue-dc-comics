@@ -114,7 +114,6 @@
 <style lang="scss" scoped>
 
     main{
-        height: calc(100vh - 180px);
 
         .content_top{
             
@@ -131,12 +130,9 @@
         }
 
         .content_bottom{
-            position:relative;
-            z-index:1;
             padding:2.5rem 0;
             color:white;
             background-color: #0282F9 ;
-            height: 125px;
 
              .action_image{
                 height: 48px;

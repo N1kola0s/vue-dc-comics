@@ -3,7 +3,7 @@
 
         
 
-        <div class="footer_top h-100">
+        <div class="footer_top">
 
             <div class="container">
 
@@ -71,8 +71,8 @@
                             
                         </div>
                     </div>
-                    <div class="footer_logo col-8 d-flex justify-content-end">
-                        <img src="../assets/img/dc-logo-bg.png" alt="dc_bg_logo">
+                    <div class="footer_logo col-8 ">
+                        <!-- <img src="../assets/img/dc-logo-bg.png" alt="dc_bg_logo"> -->
                     </div>
 
                 </div>
@@ -163,30 +163,22 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
 
+     .footer_logo {
+        background-image: url("../assets/img/dc-logo-bg.png");
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+
      ul{
          list-style: none;
          color:#959595;
          padding: 10px 0;
      }
 
-     .container{
-         position:relative;
-
-         .footer_logo{
-            position: absolute;
-            z-index: 0;
-            margin: -3rem 0;
-            right:0;
-        }
-     }
-
-     
   }
 
   .footer_bottom{
     height: 90px;
-    position: relative;
-    z-index:1;
     background-color: #303030;
     color: #0282F9;
 
